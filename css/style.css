@@ -38,6 +38,14 @@
     animation: clouds-animation 20s infinite linear;
 }
 
+.informacao{
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #00629d;
+    font-family: fantasy;
+}
+
 @keyframes pipe-animation {
     from{
         right: 0;
