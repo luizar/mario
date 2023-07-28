@@ -46,6 +46,10 @@
     font-family: fantasy;
 }
 
+.reiniciar{
+    position: absolute;
+}
+
 @keyframes pipe-animation {
     from{
         right: 0;
