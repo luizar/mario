@@ -35,6 +35,7 @@ function jogoLoop() {
 $(document).ready(function(){
 
     $(document).keydown(function (event) {
+        event.preventDefault();
         $('.mario').addClass('jump');
         jumpTimeout = setTimeout(function () {
             $('.mario').removeClass('jump');
@@ -44,9 +45,9 @@ $(document).ready(function(){
     pontuacao = 1;
     jogoLoop();
 
-    $('.reiniciar').click(function(e){
+    $('.reiniciar').click(function(event){
         pontuacao = 1;
-        e.preventDefault();
+        event.preventDefault();
         $('.pontuacao').text('0');
         $('.mario').attr('src', 'img/mario.gif');
         $('.mario').removeAttr('style');
