@@ -37,7 +37,7 @@
     width: 550px;
     position: absolute;
     animation: clouds-animation 20s infinite linear;
-    top: 255px;
+    bottom: 250px;
 }
 
 .informacao{
