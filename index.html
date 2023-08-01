@@ -13,7 +13,25 @@
 </head>
 <body>
     <div class="game-board">
-        <div class="informacao"><div class="pontos ">Pontos: <span class="pontuacao">0</span></div><button class="reiniciar  btn btn-primary">Reiniciar</button></div>
+        <div class="informacao">
+            <div ><button class="reiniciar btn btn-primary">Iniciar</button><div class="pontos ">Pontos: <span class="pontuacao">0</span></div>
+            </div>
+            <div class="nivel">
+                Nível:
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="dificuldade" value="0" id="flexRadioDefault1" checked>
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Fácil
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="dificuldade" value="1" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Médio
+                </label>
+              </div>
+            </div>
+        </div>
         <img src="img/clouds.png" class="clouds"/>
         <img src="img/mario.gif" class="mario"/>
         <img src="img/pipe.png" class="pipe"/>
