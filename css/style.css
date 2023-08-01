@@ -40,14 +40,34 @@
 
 .informacao{
     padding: 20px;
+    position: relative;
     text-align: center;
     font-size: 20px;
     color: #00629d;
     font-family: fantasy;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pontos{
+    padding: 10px;
 }
 
 .reiniciar{
-    position: absolute;
+    background: #00629d;
+    border: 1px solid #00629d;
+    color: #fff;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.reiniciar:hover{
+    border: 1px solid #00629d;
+    background: #fff;
+    color: #00629d;
 }
 
 @keyframes pipe-animation {
